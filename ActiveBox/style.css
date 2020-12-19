@@ -257,6 +257,7 @@ body {
 
     display: flex;
     margin-top: 100px;
+    margin-bottom: 100px;
     }
 
 .team_element {
@@ -290,7 +291,7 @@ body {
     color: #191616;
     line-height: 1.5;
 
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 /* Social */
@@ -332,8 +333,56 @@ body {
     fill: #4573e8;
 }
 
+/* Reviews */
 
+.reviews {
+    overflow: hidden;
+    background-color: #53354a;
 
+}
 
+.reviews_item {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.reviews_item__photo {
+    height: 500px;
+    width: 50%;
+    position: relative;
+}
 
+.reviews_item__photo__img {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+
+    transform: translateY(-50%);
+}
+
+.reviews_item__comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 50%;
+    padding-left: 80px;
+
+}
+.reviews_item__comment__text {
+    font-size: 36px;
+    line-height: 1.2;
+    font-family: 'Cardo', serif;
+    font-style: italic;
+    color: #ffffff;
+
+    margin-bottom: 40px;
+}
+
+.reviews_item__comment__name {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff;
+}
