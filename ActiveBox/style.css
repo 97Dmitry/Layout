@@ -298,7 +298,11 @@ body {
 
 .social_link {
     display: flex;
+}
 
+.social_link--footer {
+    display: flex;
+    justify-content: center;
 }
 
 .social_item {
@@ -331,6 +335,22 @@ body {
 
 .social_item:hover .social_icon{
     fill: #4573e8;
+}
+
+.social_icon--footer {
+    fill: #ffffff;
+}
+
+.social_item--footer {
+    border-width: 2px;
+    border-color: #ffffff;
+    border-radius: 2px;
+
+    background: none;
+}
+
+.social_item--footer:hover {
+    background-color: #ffffff;
 }
 
 /* Reviews */
@@ -385,4 +405,81 @@ body {
     text-transform: uppercase;
     font-weight: 700;
     color: #ffffff;
+}
+
+/* Download */
+
+.download {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.download__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.download__title {
+    font-weight: 300;
+    font-size: 28px;
+    color: #2d3033;
+
+    margin-bottom: 15px;
+}
+
+.download__text {
+    font-weight: 700;
+    font-size: 13px;
+    color: #2d3033;
+    text-transform: uppercase;
+
+    margin-bottom: 30px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #3a3e64;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    padding-top: 65px;
+    padding-bottom: 80px;
+}
+
+.footer__item {
+    text-align: center;
+    padding: 0 10px;
+    width: 33.33333%;
+}
+
+.footer_title {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+
+    margin-bottom: 15px;
+}
+
+.footer__text {
+    font-size: 14px;
+    color: rgba(255,255,255,0.5);
+    line-height: 25px;
+}
+
+.footer__copyright {
+    text-align: center;
+    background-color: #313454;
+    padding: 20px 0;
+}
+
+.footer__text span{
+    color: white;
 }
