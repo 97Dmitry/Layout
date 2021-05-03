@@ -1,0 +1,250 @@
+/*Обнуление*/
+* {padding: 0;margin: 0;border: 0;}
+*, *:before, *:after {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus, :active {outline: none;}
+a:focus, a:active {outline: none;}
+nav, footer, header, aside {display: block;}
+html, body {height: 100%;width: 100%;
+  line-height: 1;font-size: 14px;-ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
+input, button, textarea {font-family: inherit;}
+input::-ms-clear {display: none;}
+button {cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a, a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;margin: 0;}
+li {list-style-type: none;}
+ul, ol {margin-left: 0;padding-left: 0;}
+
+body {
+  font-family: Arial, sans-serif;
+  min-width: 1250px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  width: 1250px;
+  margin: 0 auto;
+
+  letter-spacing: 0.5px;
+}
+
+.welcome {
+  width: 100%;
+  background: #445162;
+}
+
+.welcome_content {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+
+  color: white;
+}
+
+.welcome__body {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0 50px 0 10px;
+}
+
+.welcome__title {
+  font-size: 60px;
+  margin-bottom: 35px;
+}
+
+.welcome__subtitle {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.welcome__subtitle p {
+  margin-bottom: 10px;
+}
+
+.welcome__subtitle p:last-child {
+  margin-bottom: 0;
+}
+
+.welcome__subtitle p:before {
+  display: inline-block;
+  content: "";
+  background: url("image/check-icon.png") no-repeat;
+  width: 35px;
+  height: 20px;
+}
+
+.welcome__img img {
+  max-width: 470px;
+}
+
+.about-flexbox {}
+
+.flexbox-content {
+  display: flex;
+  padding: 50px;
+}
+
+.flexbox-content__img {
+  padding-right: 50px;
+}
+
+.flexbox-content__title {
+  font-size: 30px;
+  line-height: 22px;
+  padding-bottom: 36px;
+  color: #445161;
+}
+
+.flexbox-content__text {
+  font-size: 16px;
+  padding-right: 60px;
+  color: #333333;
+}
+
+.flexbox-content__text p {
+  padding-bottom: 20px;
+}
+
+.flexbox-content__text p:last-child {
+  padding-bottom: 0;
+}
+
+.about-flex-container {
+  background: #F5F5F5;
+
+}
+
+.about-flex-container__content {
+  padding: 50px;
+}
+
+.about-flex-container__title {
+  font-size: 30px;
+  text-align: center;
+  color: #445161;
+  padding-bottom: 30px;
+}
+
+.about-flex-container__items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  display: flex;
+  max-width: 50%;
+
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+.item__img {
+  padding-right: 15px;
+}
+
+.item__title {
+  font-size: 24px;
+  color: #445161;
+  padding-bottom: 15px;
+}
+
+.item__text {
+  font-size: 16px;
+  color: #333333;
+}
+
+.about-vertical__columns {
+  display: flex;
+}
+
+.about-vertical__title {
+  color: #445161;
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.about-vertical {
+  margin: 40px 0;
+}
+
+.about-vertical__columns {
+  display: flex;
+  width: 990px;
+  margin: 0 auto;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+
+  flex: 0 1 33.30%;
+  background: #445162;
+  margin: 0 22px;
+  border-radius: 5px;
+}
+
+.column__title {
+  font-size: 24px;
+  color: #FFFFFF;
+  text-align: center;
+
+  padding: 12px 0;
+}
+
+.column__subtitle {
+  background: #FFFFFF;
+  border: 1px solid #445162;
+
+  font-size: 40px;
+  color: #445162;
+  text-align: center;
+
+  padding: 12px 0;
+}
+
+.column__text {
+  color: #FFFFFF;
+  padding: 0 20px;
+
+  line-height: 1.5;
+
+  flex: 1 1 auto;
+}
+
+.column__text p {
+  margin: 15px 0 0 0;
+}
+
+.column__text p:last-child {
+  margin-bottom: 0;
+}
+
+.column__button {
+  background: #FFFFFF;
+  margin: 20px;
+  border-radius: 10px;
+
+  line-height: 40px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.footer {
+  color: #445162;
+  font-size: 12px;
+  text-align: center;
+  line-height: 60px;
+
+  height: 60px;
+  background: #F5F5F5;
+}
+
+
