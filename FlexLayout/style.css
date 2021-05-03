@@ -21,21 +21,31 @@ ul, ol {margin-left: 0;padding-left: 0;}
 
 body {
   font-family: Arial, sans-serif;
+<<<<<<< HEAD
   min-width: 1250px;
+=======
+>>>>>>> origin/master
 }
 
 .container {
   display: flex;
   flex-direction: column;
 
+<<<<<<< HEAD
   width: 1250px;
+=======
+  width: 70%;
+>>>>>>> origin/master
   margin: 0 auto;
 
   letter-spacing: 0.5px;
 }
 
 .welcome {
+<<<<<<< HEAD
   width: 100%;
+=======
+>>>>>>> origin/master
   background: #445162;
 }
 
@@ -177,7 +187,11 @@ body {
 
 .about-vertical__columns {
   display: flex;
+<<<<<<< HEAD
   width: 990px;
+=======
+  width: 80%;
+>>>>>>> origin/master
   margin: 0 auto;
 }
 
