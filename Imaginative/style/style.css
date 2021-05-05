@@ -1,0 +1,214 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Conv_Georgia";
+  src: url("../fonts/Georgia.eot");
+  src: local("☺"), url("../fonts/Georgia.woff") format("woff"), url("../fonts/Georgia.ttf") format("truetype"), url("../fonts/Georgia.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  line-height: 1;
+  font-size: 14px;
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul, ol {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+body {
+  font-family: Conv_Georgia, sans-serif;
+}
+
+.header-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 20px;
+  border-bottom: 1px solid #97455F;
+}
+.header-links__social a {
+  display: inline-block;
+  text-align: center;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background-color: #D2D2D2;
+}
+.header-links__social a img {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.header-links__google:hover {
+  background-color: #d23439;
+}
+.header-links__twitter:hover {
+  background-color: #79beff;
+}
+.header-links__linkedin:hover {
+  background-color: #0081fa;
+}
+.header-links__rss:hover {
+  background-color: #fa7500;
+}
+.header-links__pinterest:hover {
+  background-color: #d23439;
+}
+.header-links__link {
+  color: #97455F;
+}
+.header-links__link:after {
+  margin-left: 2px;
+  content: "|";
+}
+.header-links__link:last-child:after {
+  content: "";
+}
+
+.wrapper {
+  padding: 0 20px;
+  background-color: #EBEBEB;
+}
+.wrapper .title-container {
+  height: 200px;
+  position: relative;
+}
+.wrapper .title-container .title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+}
+.wrapper .title-container .title-wrapper .title {
+  display: flex;
+}
+.wrapper .title-container .title-wrapper .title__title {
+  padding-right: 5px;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.wrapper .title-container .title-wrapper .title__title:first-letter {
+  font-size: 50px;
+}
+.wrapper .title-container .title-wrapper .title__title:after {
+  content: "";
+  border-right: 1px solid #999999;
+  margin-left: 5px;
+}
+.wrapper .title-container .title-wrapper .title__subtitle {
+  align-self: center;
+  color: #999999;
+  line-height: 25px;
+}
+.wrapper .title-container .title-wrapper .search input {
+  height: 36px;
+  width: 200px;
+  padding: 0 10px;
+}
+.wrapper .title-container .title-wrapper .search input::placeholder {
+  color: #999999;
+}
+.wrapper .title-container .title-wrapper .search button {
+  height: 36px;
+  width: 80px;
+  background-color: #97455F;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.wrapper .title-container .header-menu {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  height: 50px;
+  background-color: #97455F;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+.wrapper .title-container .header-menu__button {
+  background-color: #97455F;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+.wrapper .title-container .header-menu button:first-child {
+  border-top-left-radius: 8px;
+}
+
+/*# sourceMappingURL=style.css.map */
